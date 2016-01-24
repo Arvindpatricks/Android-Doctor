@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_second">Second</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="title_activity_choose_type">ChooseType</string>
+    <string name="appname">Android Doctor</string>
+    <string name="title_activity_automatic_email">AutomaticEmailActivity</string>
+    <string name="title_activity_doctor_home">DoctorHome</string>
+    <string name="title_activity_doctor_verification">DoctorVerification</string>
+    <string name="title_activity_patient_regstration">PatientRegstration</string>
+    <string name="title_activity_patient_verification">PatientVerification</string>
+    <string name="title_activity_patient_home">PatientHome</string>
+    <string name="title_activity_introduction">Introduction</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

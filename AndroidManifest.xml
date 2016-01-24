@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name="com.example.login.Application"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.login.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.login.Second"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.login.ChooseType"
+            android:label="@string/title_activity_choose_type" >
+        </activity>
+        <activity
+            android:name="com.example.login.AutomaticEmailActivity"
+            android:label="@string/title_activity_automatic_email" >
+        </activity>
+        <activity
+            android:name="com.example.login.DoctorHome"
+            android:label="@string/title_activity_doctor_home" >
+        </activity>
+        <activity
+            android:name="com.example.login.DoctorVerification"
+            android:label="@string/title_activity_doctor_verification" >
+        </activity>
+        <activity
+            android:name="com.example.login.PatientRegstration"
+            android:label="@string/title_activity_patient_regstration" >
+        </activity>
+        <activity
+            android:name="com.example.login.PatientVerification"
+            android:label="@string/title_activity_patient_verification" >
+        </activity>
+        <activity
+            android:name="com.example.login.PatientHome"
+            android:label="@string/title_activity_patient_home" >
+        </activity>
+        <activity
+            android:name="com.example.login.Introduction"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_introduction"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+    </application>
+
+</manifest>
